@@ -1,0 +1,43 @@
+body {
+    /*background: lightblue;*/
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#title {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    height: 70px;
+}
+
+#operations {
+    padding-bottom: 20px;
+}
+
+.required::after {
+    content:"*";
+    color:red;
+}
+
+.linkToList {
+    padding-bottom: 20px;
+    font-size: 20px;
+    float: right;
+}
+
+input:disabled {
+    background: #ECECEC;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 3px solid #ddd;
+}
+
+.projectNameLink {
+    font-size: 15px;
+}
